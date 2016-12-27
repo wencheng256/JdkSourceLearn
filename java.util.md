@@ -3,9 +3,10 @@
 ## Collection & Map
 ### List
 ### Map
+
 |方法|意义|
- |-|-|
- |void	clear() |从此映射中移除所有映射关系（可选操作）。|
+|-|-|
+|void	clear() |从此映射中移除所有映射关系（可选操作）。|
 | boolean	containsKey(Object key) | 如果此映射包含指定键的映射关系，则返回 true。|
 |boolean	containsValue(Object value) |如果此映射将一个或多个键映射到指定值，则返回 true。|
 | Set	entrySet() | 返回此映射中包含的映射关系的 Set 视图。|
@@ -13,8 +14,9 @@
 | V	get(Object key) |返回指定键所映射的值；如果此映射不包含该键的映射关系，则返回 null。|
 | int	hashCode() | 返回此映射的哈希码值。|
 | boolean	isEmpty() |如果此映射未包含键-值映射关系，则返回 true。|
- |Set|	keySet() |返回此映射中包含的键的 Set 视图。|
- |V	|put(K key, V value) |将指定的值与此映射中的指定键关联（可选操作）。|
+|Set|	keySet() |返回此映射中包含的键的 Set 视图。|
+|V	|put(K key, V value) |将指定的值与此映射中的指定键关联（可选操作）。|
+
  void	putAll(Map<? extends K,? extends V> m) 
           从指定映射中将所有映射关系复制到此映射中（可选操作）。
  V	remove(Object key) 
